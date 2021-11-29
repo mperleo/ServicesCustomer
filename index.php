@@ -13,21 +13,21 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light nav-tabs border-bottom border-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Services Customer</a>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand" href="index.php">Services Customer</a>
+                <div>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Datos de demanda eléctrica</a>
+                        <a class="nav-link" aria-current="page" href="electrica.php">Datos de demanda eléctrica</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Analisis de datos de la junta</a>
+                        <a class="nav-link" href="junta.php">Analisis de datos de la junta</a>
                     </li>
                 </ul>
                 </div>
             </div>
         </nav>
 
-        <div class="container-fluid mt-4 bg-info">
+        <div class="container mt-4">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                     <div class="card border border-dark mb-3">
@@ -36,7 +36,7 @@
                             <p class="card-text">
                             Datos de la demanda electrica en España
                             </p>
-                            <button type="button" class="btn btn-outline-dark">ir</button>
+                            <a type="button" class="btn btn-outline-dark" href="electrica.php">ir</a>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                             <p class="card-text">
                             Datos de puntos de recarga de vehiculos electricos en Castilla y León en fechas dadas
                             </p>
-                            <button type="button" class="btn btn-outline-dark">ir</button>
+                            <a type="button" class="btn btn-outline-dark" href="junta.php">ir</a>
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                             <p class="card-text">
                             Datos de las convocatorias de empleo publico en castilla y leon entre fechas dadas
                             </p>
-                            <button type="button" class="btn btn-outline-dark">ir</button>
+                            <a type="button" class="btn btn-outline-dark" href="junta.php">ir</a>
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                             <p class="card-text">
                             Datos de establecimientos farmacéuticosen Castilla y León entre fechas dadas
                             </p>
-                            <button type="button" class="btn btn-outline-dark">ir</button>
+                            <a type="button" class="btn btn-outline-dark" href="junta.php">ir</a>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                             <p class="card-text">
                             Datos de tasa de mortalidad COVID-19 por zonas de salud de Castilla y León entre fechas dadas
                             </p>
-                            <button type="button" class="btn btn-outline-dark">ir</button>
+                            <a type="button" class="btn btn-outline-dark" href="junta.php">ir</a>
                         </div>
                     </div>
                 </div>  
